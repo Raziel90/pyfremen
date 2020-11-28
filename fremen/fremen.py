@@ -180,6 +180,7 @@ class Fremen:
             (np.array): (orderi+1x1) the orders that surpass the error th 
         """
         x = np.asarray(x)
+        y = np.asarray(y)
         estimate = 0.0
         time = 0.0
         state = 0.0
