@@ -16,7 +16,8 @@ This package can be installed by calling:
 ```bash
 pip install git+https://github.com/Raziel90/pyfremen.git  
 ```
-As soon as the interface is definitive it will be installable on the PyPi 
+As soon as the interface is definitive it will be installable on the PyPi.
+The code is tested for python $ \{2.7, 3.5, 3.6, 3.7, 3.8\}$
 
 ## Publications
 ----
