@@ -88,7 +88,7 @@ class TestFremenModel(unittest.TestCase):
             f = Fremen()
             f.add(times, states)
             self.assertLessEqual(
-                f.evaluate(times, states, orderi=11).sum() - 69.35590258966235,
+                f.evaluate(times, states, orderi=11)[0].sum() - 69.35590258966235,
                 1e-15, "The test case provided had a wrong entropy estimation!")
 
     def test_example_cumulative(self):
