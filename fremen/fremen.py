@@ -93,7 +93,7 @@ class Fremen:
         self.gain = (self.gain * self.measurements + newGain) / (self.measurements + x.shape[0])
         
         if oldGain > 0:
-            self.balances *= self.gain / oldgain
+            self.balances *= self.gain / oldGain
         else:
             self.balances = np.complex(0)
                 
