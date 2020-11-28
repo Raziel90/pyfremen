@@ -4,7 +4,7 @@ setup(
     name='pyfremen',
     version='0.1',
     description='Fast Python implementation of the FreMEn model',
-    long_description='Fast Python implementation of the FreMEn model implemented in https://github.com/gestom/fremen'
+    long_description='Fast Python implementation of the FreMEn model implemented in https://github.com/gestom/fremen',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: MIT License',
