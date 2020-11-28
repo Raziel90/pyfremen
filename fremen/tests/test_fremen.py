@@ -75,7 +75,7 @@ class TestFremenModel(unittest.TestCase):
             f.add(times, states)
             self.assertLessEqual(
                 f.estimate(times, orderi=4).sum() - 54.47299842276188,
-                1e-15, "The test case provided had a wrong approximation!")
+                1e-15, "The test case provided had a wrong function approximation!")
 
     def test_example_entropy_case(self):
             f = Fremen()
