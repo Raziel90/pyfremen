@@ -16,6 +16,6 @@ setup(
     author_email='claudiocoppola90@gmail.com',
     license='MIT',
     packages=['fremen'],
-    install_requires=['numpy'], 
+    install_requires=['numpy'],
     zip_safe=False
 )
