@@ -5,10 +5,11 @@ Frequency Map Enhancement (FreMEn) is a method that allows to introduce dynamics
 
 Frequency Map Enhancement considers the probability of each environment state as a function of time and represents it by a combination of harmonic components. The idea assumes that in populated environments, many of the observed changes are caused by humans performing their daily activities. Therefore, the environment's dynamics is naturally periodic and can be modelled by its frequency spectrum that represent a combination of harmonic functions that correspond to periodic processes influencing the environment. Such a model not only allows representation of environment dynamics over arbitrary timescales with constant memory requirements, but also prediction of future environment states. The proposed approach can be applied to many of the state-of-the-art environment models.
 
-## Dependencies
+## Installation
 The only necessary dependency is numpy
 ```bash
-pip install numpy
+pip install numpy # if using pip
+conda install numpy # if using conda
 ```
 
 ## Publications
