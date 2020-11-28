@@ -12,6 +12,12 @@ pip install numpy # if using pip
 conda install numpy # if using conda
 ```
 
+This package can be installed by calling:
+```bash
+pip install git+https://github.com/Raziel90/pyfremen.git  
+```
+As soon as the interface is definitive it will be installable on the PyPi 
+
 ## Publications
 ----
 1. T.Krajnik, J.P.Fentanes, G.Cielniak, C.Dondrup, T.Duckett: **[Spectral Analysis for Long-Term Robotic Mapping.]([https://link](http://labe.felk.cvut.cz/~tkrajnik/papers/fremen_2014_ICRA.pdf))** ICRA 2014. [bibtex](http://raw.githubusercontent.com/wiki/gestom/fremen/papers/fremen_2014_ICRA.bib) --> Original Paper
